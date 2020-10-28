@@ -28,6 +28,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
     /// </summary>
     public class PawnManipulator : Manipulator
     {
+        // public static PawnManipulator control;
         /// <summary>
         /// The first-person camera being used to render the passthrough camera image (i.e. AR
         /// background).
@@ -37,7 +38,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
         /// <summary>
         /// A prefab to place when a raycast from a user touch hits a plane.
         /// </summary>
-        private GameObject PawnPrefab;
+        public GameObject PawnPrefab;
 
         /// <summary>
         /// Manipulator prefab to attach placed objects to.
@@ -83,6 +84,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
             if (Frame.Raycast(
                 gesture.StartPosition.x, gesture.StartPosition.y, raycastFilter, out hit))
             {
+                Debug.Log("Vo if");
                 // Use hit pose and camera pose to check if hittest is from the
                 // back of the plane, if it is, no need to create the anchor.
                 if ((hit.Trackable is DetectedPlane) &&
@@ -94,7 +96,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
                 else
                 {
                     PawnPrefab = GameControl.control.FurPrefab;
-                    Debug.Log ($"FurPrefab different null {PawnPrefab != null}");
+                    Debug.Log ($"PawnPrefab different null {PawnPrefab != null}");
                     // Instantiate game object at the hit pose.
                     var gameObject = Instantiate(PawnPrefab, hit.Pose.position, hit.Pose.rotation);
 
@@ -111,11 +113,24 @@ namespace GoogleARCore.Examples.ObjectManipulation
 
                     // Make manipulator a child of the anchor.
                     manipulator.transform.parent = anchor.transform;
-
+                    
                     // Select the placed object.
                     manipulator.GetComponent<Manipulator>().Select();
                 }
             }
         }
+
+        // void Awake()
+        // {
+        //     DontDestroyOnLoad(gameObject);
+        //     if (control == null)
+        //     {
+        //         control = this;
+        //     }
+        //     else if (control != this)
+        //     {
+        //         Destroy(gameObject);
+        //     }
+        // }
     }
 }

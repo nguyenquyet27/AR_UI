@@ -280,13 +280,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 275474278}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.6830127, y: -0.18301266, z: 0.18301266, w: 0.6830127}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: -30, z: 0}
 --- !u!1 &409380846
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,7 +321,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0.25231, y: 38.402954}
+  m_AnchoredPosition: {x: 0.25231, y: 38.402832}
   m_SizeDelta: {x: 356, y: 76.80548}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &409380848
@@ -980,8 +980,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -548.38824}
-  m_SizeDelta: {x: 0, y: 1096.7765}
+  m_AnchoredPosition: {x: 0, y: -2573.9663}
+  m_SizeDelta: {x: 0, y: 5148.7925}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1545154661
 MonoBehaviour:
@@ -1035,22 +1035,52 @@ MonoBehaviour:
   allGames:
   - Name: Armchair
     Icon: {fileID: 21300000, guid: 267b1ec7c7b7c3642ae4cf6015362f50, type: 3}
-    model: {fileID: 100000, guid: 258987b8edaa24b40b1b3168608f92b5, type: 3}
-  - Name: Coffee Table
-    Icon: {fileID: 21300000, guid: 6b3ef9fe51b9ed748bcb0d55666cd125, type: 3}
-    model: {fileID: 100000, guid: 3e36b10092da9e3468f154949204c9b1, type: 3}
-  - Name: Dining Chair
-    Icon: {fileID: 21300000, guid: 9f82bb8fdb268db4d9153ce5182ba534, type: 3}
-    model: {fileID: 100000, guid: 70d3659c52536984f9434c6003369ba0, type: 3}
-  - Name: Plan Potted
-    Icon: {fileID: 21300000, guid: ae76ba2f02e9c6a438b056249f08a711, type: 3}
-    model: {fileID: 100004, guid: e0bf51c05a4e17e47b94306301d09d5e, type: 3}
+    model: {fileID: 3259494892419957840, guid: 17f0e7f8fd771d94ba76fdfd02d9655f, type: 3}
+  - Name: Armchair
+    Icon: {fileID: 21300000, guid: cb319e634aec146438d3d40397aa0ec5, type: 3}
+    model: {fileID: 8390022141817873705, guid: b6a08e88737f7e041a21fefd136ccce1, type: 3}
+  - Name: Armchair
+    Icon: {fileID: 21300000, guid: 6d4e5a28991f67544a132eb1f8e2baa7, type: 3}
+    model: {fileID: 5820318199294545406, guid: 9923410026df76746ab4789f5bf14b57, type: 3}
+  - Name: Pouf
+    Icon: {fileID: 21300000, guid: f2e054a1c7f546e43bd941d95949dc6e, type: 3}
+    model: {fileID: 99579653782927288, guid: b94b2a9cca4679d4baba381d1bbe5207, type: 3}
   - Name: Sofa
     Icon: {fileID: 21300000, guid: e0567ba85caf8554d908a60372e1c3f5, type: 3}
-    model: {fileID: 100000, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
-  - Name: Table
+    model: {fileID: 8613545012129975954, guid: 8dc1fec594515bc4799a0827887a48eb, type: 3}
+  - Name: Sofa
+    Icon: {fileID: 21300000, guid: de966ce71cd3ba04faaf06f067db683a, type: 3}
+    model: {fileID: 240679489196780465, guid: 77a3263705196f240b1a4f5b05228100, type: 3}
+  - Name: Sofa
+    Icon: {fileID: 21300000, guid: fa790f6045a23da42b0d0c6fcca3b814, type: 3}
+    model: {fileID: 522260010827796920, guid: d09025b859e8e7d47ae1150f21883faa, type: 3}
+  - Name: Sofa
+    Icon: {fileID: 21300000, guid: 6ae2bebad6617174d89389ceea47be62, type: 3}
+    model: {fileID: 204771979072768290, guid: df3354220601429469fe6b71f8b2c692, type: 3}
+  - Name: Sofa
+    Icon: {fileID: 21300000, guid: 73267c06c1e509749a1fafe3fe8433fb, type: 3}
+    model: {fileID: 8417394349513138396, guid: 42b40737f39b5d344af5e43f552f6083, type: 3}
+  - Name: Sofa
     Icon: {fileID: 21300000, guid: 5cb13a605940a804582ebbf039a20e43, type: 3}
-    model: {fileID: 100000, guid: 9eb54f3e8326b794aac2ed2c7b7c33c4, type: 3}
+    model: {fileID: 6957201464849186478, guid: 7ba7597a764dce14d8ff47badb1f60a3, type: 3}
+  - Name: Sofa
+    Icon: {fileID: 21300000, guid: 86009d07eef4b154cb1e48f8b7893e16, type: 3}
+    model: {fileID: 7028575103568303795, guid: 0b390a420db3b6a4fb899c7837ddbcd2, type: 3}
+  - Name: Sofa
+    Icon: {fileID: 21300000, guid: 9ab7f9a135d028c4c93a07f7af2567ea, type: 3}
+    model: {fileID: 1339027593546377211, guid: aa960b539014c11429fc01439a9eec22, type: 3}
+  - Name: TV Shell
+    Icon: {fileID: 21300000, guid: 0adc24c3668779a4ba9257f172d33144, type: 3}
+    model: {fileID: 4562233308930579357, guid: 722a9c22fa22db84599ec51df5287591, type: 3}
+  - Name: TV Shell
+    Icon: {fileID: 21300000, guid: 997c585079c8db840a0f6846421ec50c, type: 3}
+    model: {fileID: 5411682602395183373, guid: ce90c44884c0c0148b585408ca015bd2, type: 3}
+  - Name: TV Shell
+    Icon: {fileID: 21300000, guid: d7119c2e1c31ab04c9dbd4aef5a41ecb, type: 3}
+    model: {fileID: 831956326416793283, guid: 2bbaaf2ee43aa064495e9fae518c0fd7, type: 3}
+  - Name: TV Shell
+    Icon: {fileID: 21300000, guid: 666fe8406cbd72b47b3f1c707695df8c, type: 3}
+    model: {fileID: 1989472482842992330, guid: 3784a6992921c344687186cd0d2820f2, type: 3}
 --- !u!114 &1545154664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1394,7 +1424,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.003479004}
+  m_AnchoredPosition: {x: 0, y: -0.003540039}
   m_SizeDelta: {x: 0, y: -0.007080078}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2082553588

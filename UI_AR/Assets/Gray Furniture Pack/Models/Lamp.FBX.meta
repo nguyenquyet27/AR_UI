@@ -1,81 +1,208 @@
 fileFormatVersion: 2
 guid: ca204de252dc25c47b3031e08e674124
-timeCreated: 1432796952
-licenseType: Store
 ModelImporter:
-  serializedVersion: 18
-  fileIDToRecycleName:
-    100000: Cylinder001
-    100002: //RootNode
-    100004: Object001
-    100006: Object002
-    100008: Object003
-    100010: Cirle_frame_small003
-    100012: Cone003
-    100014: Hi poly
-    100016: Line003
-    100018: Low poly
-    100020: Particle View 01
-    100022: patron003
-    100024: Sky001
-    400000: Cylinder001
-    400002: //RootNode
-    400004: Object001
-    400006: Object002
-    400008: Object003
-    400010: Cirle_frame_small003
-    400012: Cone003
-    400014: Hi poly
-    400016: Line003
-    400018: Low poly
-    400020: Particle View 01
-    400022: patron003
-    400024: Sky001
-    2300000: Cylinder001
-    2300002: Object001
-    2300004: Object002
-    2300006: Object003
-    2300008: Cirle_frame_small003
-    2300010: Cone003
-    2300012: Hi poly
-    2300014: Line003
-    2300016: Low poly
-    2300018: patron003
-    3300000: Cylinder001
-    3300002: Object001
-    3300004: Object002
-    3300006: Object003
-    3300008: Cirle_frame_small003
-    3300010: Cone003
-    3300012: Hi poly
-    3300014: Line003
-    3300016: Low poly
-    3300018: patron003
-    4300000: Cylinder001
-    4300002: Object001
-    4300004: Object002
-    4300006: Object003
-    4300008: Cirle_frame_small003
-    4300010: patron003
-    4300012: Hi poly
-    4300014: Line003
-    4300016: Cone003
-    4300018: Low poly
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Cylinder001
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: Object001
+  - first:
+      1: 100006
+    second: Object002
+  - first:
+      1: 100008
+    second: Object003
+  - first:
+      1: 100010
+    second: Cirle_frame_small003
+  - first:
+      1: 100012
+    second: Cone003
+  - first:
+      1: 100014
+    second: Hi poly
+  - first:
+      1: 100016
+    second: Line003
+  - first:
+      1: 100018
+    second: Low poly
+  - first:
+      1: 100020
+    second: Particle View 01
+  - first:
+      1: 100022
+    second: patron003
+  - first:
+      1: 100024
+    second: Sky001
+  - first:
+      4: 400000
+    second: Cylinder001
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: Object001
+  - first:
+      4: 400006
+    second: Object002
+  - first:
+      4: 400008
+    second: Object003
+  - first:
+      4: 400010
+    second: Cirle_frame_small003
+  - first:
+      4: 400012
+    second: Cone003
+  - first:
+      4: 400014
+    second: Hi poly
+  - first:
+      4: 400016
+    second: Line003
+  - first:
+      4: 400018
+    second: Low poly
+  - first:
+      4: 400020
+    second: Particle View 01
+  - first:
+      4: 400022
+    second: patron003
+  - first:
+      4: 400024
+    second: Sky001
+  - first:
+      23: 2300000
+    second: Cylinder001
+  - first:
+      23: 2300002
+    second: Object001
+  - first:
+      23: 2300004
+    second: Object002
+  - first:
+      23: 2300006
+    second: Object003
+  - first:
+      23: 2300008
+    second: Cirle_frame_small003
+  - first:
+      23: 2300010
+    second: Cone003
+  - first:
+      23: 2300012
+    second: Hi poly
+  - first:
+      23: 2300014
+    second: Line003
+  - first:
+      23: 2300016
+    second: Low poly
+  - first:
+      23: 2300018
+    second: patron003
+  - first:
+      33: 3300000
+    second: Cylinder001
+  - first:
+      33: 3300002
+    second: Object001
+  - first:
+      33: 3300004
+    second: Object002
+  - first:
+      33: 3300006
+    second: Object003
+  - first:
+      33: 3300008
+    second: Cirle_frame_small003
+  - first:
+      33: 3300010
+    second: Cone003
+  - first:
+      33: 3300012
+    second: Hi poly
+  - first:
+      33: 3300014
+    second: Line003
+  - first:
+      33: 3300016
+    second: Low poly
+  - first:
+      33: 3300018
+    second: patron003
+  - first:
+      43: 4300000
+    second: Cylinder001
+  - first:
+      43: 4300002
+    second: Object001
+  - first:
+      43: 4300004
+    second: Object002
+  - first:
+      43: 4300006
+    second: Object003
+  - first:
+      43: 4300008
+    second: Cirle_frame_small003
+  - first:
+      43: 4300010
+    second: patron003
+  - first:
+      43: 4300012
+    second: Hi poly
+  - first:
+      43: 4300014
+    second: Line003
+  - first:
+      43: 4300016
+    second: Cone003
+  - first:
+      43: 4300018
+    second: Low poly
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #60
+    second: {fileID: 2100000, guid: 22d5912c04efbe64bb8af229ebf4ab55, type: 2}
   materials:
-    importMaterials: 0
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -83,13 +210,24 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -97,24 +235,35 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
